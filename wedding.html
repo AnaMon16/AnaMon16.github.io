@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anastasia & Franco Wedding</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Anastasia & Franco</h1>
+    <p>We're getting married!</p>
+  </header>
+
+  <nav>
+    <a href="#our-story">Our Story</a>
+    <a href="#details">Wedding Details</a>
+    <a href="#rsvp">RSVP</a>
+  </nav>
+
+  <section id="our-story">
+    <h2>Our Story</h2>
+    <p>From the first hello to forever after. 💕</p>
+  </section>
+
+  <section id="details">
+    <h2>Wedding Details</h2>
+    <ul>
+      <li><strong>Date:</strong> 27 June 2026</li>
+      <li><strong>Time:</strong> 14:00 PM</li>
+      <li><strong>Venue:</strong> Galagos Country Estate</li>
+      <li><strong>Dress Code:</strong> Formal ALL BLACK</li>
+      <div id="countdown">
+  <h3>Countdown to Our Big Day</h3>
+  <div class="timer">
+    <span id="days">00</span> Days
+    <span id="hours">00</span> Hours
+    <span id="minutes">00</span> Minutes
+    <span id="seconds">00</span> Seconds
+  </div>
+</div>
+    </ul>
+  </section>
+
+  <section id="rsvp">
+    <h2>RSVP</h2>
+    <form id="rsvpForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <select name="attendance" required>
+        <option value="">Will you attend?</option>
+        <option value="Yes">Yes, Both of us are there!(Couples)</option>
+        <option value="Yes">Yes, I can't wait!(One Person)</option>
+        <option value="No">Sorry, we can't make it</option>
+      </select>
+      <button type="submit">Submit RSVP</button>
+    </form>
+    <p id="responseMsg"></p>
+  </section>
+
+  <footer>
+    <p>Made with 💜 by A & F</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
